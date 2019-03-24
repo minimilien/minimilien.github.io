@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>shopping</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="shopping.css"/>
+		<script type="text/javascript" src="shopping.js"></script>
+	</head>
+	<body >
+		<div class="liste">
+			<p>
+				<input id="banania" placeholder="Que souhaitez-vous ajouter à la liste ?"/>
+				<button onclick="ajout()">Ajout</button>
+			</p>
+			<p>
+				<input id="supprimer" placeholder="Que souhaitez-vous retirer de la liste ?" type="number" step="1"/>
+				<button onclick="retirer()">Supprimer</button>
+			</p>
+			<div class="popol">
+				<p>
+					<label>
+						<input type="checkbox" value="Is important" id="rouge"/>
+						Is important
+					</label>
+				</p>
+				<p>
+					<label>
+						<input type="checkbox" value="Can be bought in groceries" id="surligné"/>
+						Can be bought in groceries
+					</label>
+				</p>
+				Liste des courses
+				<ul id="liste0">
+				</ul>
+			</div>
+			
+		</div>
+	</body>
+</html>

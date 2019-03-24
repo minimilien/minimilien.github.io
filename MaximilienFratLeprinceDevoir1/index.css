@@ -1,0 +1,79 @@
+body{
+	text-decoration		: none;
+	font-family			: Arial;
+	padding				: 10px 10px 10px 10px;
+	background-color	: #DDDDFF;
+	text-decoration		: none;
+	text-align 			: left;
+}
+
+.titre0{
+	font-family			: Arial Black;
+	text-decoration		: none;
+	margin-left			: 40pxauto;
+	margin-right		: 40pxauto;
+	padding				: 10px 10px 10px 10px;
+	text-align 			: center;
+	/*commentaire*/
+	height				: 40px;
+	font-size			: 30px;
+	color				: #0000AA;
+	border-radius		: 15px;
+	background-color	: #FFDDDD;
+}
+
+.titre{
+	text-decoration		: none;
+	margin-left			: 10pxauto;
+	margin-right		: 10pxauto;
+	padding				: 10px 10px 10px 10px;
+	text-align 			: center;
+	height				: 113px;
+	font-size			: 80px;
+	color				: #FF0000;
+	border-radius		: 10px;
+	background-color	: #FFFFFF;
+}
+
+.joe{
+	margin-left			: 10pxauto;
+	margin-right		: 10pxauto;
+	margin-bottom		: 10pxauto;
+	padding				: 10px 10px 10px 10px;
+	background-image	: url(Dagobeurt.png);
+	background-size		: 720px 893px;
+	text-align 			: center;
+	font-family			: Cursive;
+	/*commentaire*/
+	font-size			: 15pt;
+	border-radius		: 10px;
+}
+
+.tableau{
+	text-decoration		: none;
+	padding				: 10px 10px 10px 10px;
+	font-size			: 19px;
+	color				: #FF0000;
+	border-radius		: 10px;
+	background-color	: #FFFFFF;
+	height				: 1100px;
+}
+
+.Menu{
+	padding				: 5px 5px 5px 5px;
+	text-decoration		: none;
+	font-size			: 20px;
+	height				: 50px;	 
+	position			: relative;	
+	margin				: 20px 0 10px 0; 
+	position			: relative; 
+	height				: 1000px;
+	background-color	: #DDDDFF;
+	border-radius		: 10px;
+	
+}
+
+#menu{
+	text-decoration		: none;
+	font-size			: 20px;
+}
